@@ -1,0 +1,10 @@
+wandb_version: 1
+
+metric:
+  value: minkowski
+n_neighbors:
+  value: 1
+p:
+  value: 2
+weights:
+  value: uniform

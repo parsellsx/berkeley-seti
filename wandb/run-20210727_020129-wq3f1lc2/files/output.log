@@ -1,0 +1,2 @@
+/opt/conda/lib/python3.7/site-packages/sklearn/pipeline.py:346: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  self._final_estimator.fit(Xt, y, **fit_params_last_step)

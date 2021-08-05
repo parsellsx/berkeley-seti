@@ -1,0 +1,24 @@
+{
+    "os": "Linux-4.19.0-17-cloud-amd64-x86_64-with-debian-10.10",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-07-20T22:01:04.723589",
+    "startedAt": "2021-07-20T22:01:03.894234",
+    "docker": null,
+    "cpu_count": 2,
+    "cuda": "11.0.207",
+    "args": [
+        "-f",
+        "/home/parsellsx/.local/share/jupyter/runtime/kernel-deba6b38-b06d-447b-8642-354cac807a82.json"
+    ],
+    "state": "running",
+    "program": "berkeley-seti/Experimenting with Classifiers on Kepler Sector 14 EB Data.ipynb",
+    "root": "/home/parsellsx/berkeley-seti",
+    "git": {
+        "remote": "https://github.com/parsellsx/berkeley-seti",
+        "commit": "c5eeda889651117543f818d64b05b8955a007313"
+    },
+    "email": "parsellsx@gmail.com",
+    "host": "aparsells-test2",
+    "username": "parsellsx",
+    "executable": "/opt/conda/bin/python"
+}

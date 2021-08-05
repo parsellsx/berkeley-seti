@@ -1,0 +1,92 @@
+2021-07-26 23:49:44,981 INFO    MainThread:14757 [internal.py:wandb_internal():91] W&B internal server running at pid: 14757, started at: 2021-07-26 23:49:44.981601
+2021-07-26 23:49:44,985 DEBUG   SenderThread:14757 [sender.py:send():179] send: header
+2021-07-26 23:49:44,985 INFO    WriterThread:14757 [datastore.py:open_for_write():80] open: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/run-s6a76of9.wandb
+2021-07-26 23:49:44,985 DEBUG   HandlerThread:14757 [handler.py:handle_request():124] handle_request: check_version
+2021-07-26 23:49:44,985 DEBUG   SenderThread:14757 [sender.py:send_request():193] send_request: check_version
+2021-07-26 23:49:45,042 DEBUG   SenderThread:14757 [sender.py:send():179] send: run
+2021-07-26 23:49:45,144 DEBUG   HandlerThread:14757 [handler.py:handle_request():124] handle_request: run_start
+2021-07-26 23:49:45,146 DEBUG   HandlerThread:14757 [meta.py:__init__():39] meta init
+2021-07-26 23:49:45,148 DEBUG   HandlerThread:14757 [meta.py:__init__():53] meta init done
+2021-07-26 23:49:45,149 DEBUG   HandlerThread:14757 [meta.py:probe():210] probe
+2021-07-26 23:49:45,151 DEBUG   HandlerThread:14757 [meta.py:_setup_git():200] setup git
+2021-07-26 23:49:45,159 INFO    SenderThread:14757 [dir_watcher.py:__init__():168] watching files in: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files
+2021-07-26 23:49:45,159 INFO    SenderThread:14757 [sender.py:_start_run_threads():719] run started: s6a76of9 with start time 1627343384
+2021-07-26 23:49:45,160 DEBUG   SenderThread:14757 [sender.py:send():179] send: summary
+2021-07-26 23:49:45,161 INFO    SenderThread:14757 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-26 23:49:45,168 DEBUG   HandlerThread:14757 [meta.py:_setup_git():207] setup git done
+2021-07-26 23:49:45,168 DEBUG   HandlerThread:14757 [meta.py:_save_pip():57] save pip
+2021-07-26 23:49:45,168 DEBUG   HandlerThread:14757 [meta.py:_save_pip():71] save pip done
+2021-07-26 23:49:45,168 DEBUG   HandlerThread:14757 [meta.py:_save_conda():78] save conda
+2021-07-26 23:49:46,161 INFO    Thread-9  :14757 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/requirements.txt
+2021-07-26 23:49:46,162 INFO    Thread-9  :14757 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/wandb-summary.json
+2021-07-26 23:49:46,162 INFO    Thread-9  :14757 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/conda-environment.yaml
+2021-07-26 23:49:50,161 INFO    Thread-9  :14757 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/output.log
+2021-07-26 23:49:51,162 INFO    Thread-9  :14757 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/conda-environment.yaml
+2021-07-26 23:49:51,326 DEBUG   HandlerThread:14757 [meta.py:_save_conda():86] save conda done
+2021-07-26 23:49:51,326 DEBUG   HandlerThread:14757 [meta.py:probe():252] probe done
+2021-07-26 23:49:51,330 DEBUG   HandlerThread:14757 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-26 23:49:51,330 DEBUG   SenderThread:14757 [sender.py:send_request():193] send_request: stop_status
+2021-07-26 23:49:51,398 DEBUG   SenderThread:14757 [sender.py:send():179] send: files
+2021-07-26 23:49:51,399 INFO    SenderThread:14757 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-26 23:49:51,656 WARNING MainThread:14757 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-07-26 23:49:51,661 INFO    Thread-11 :14757 [upload_job.py:push():137] Uploaded file /tmp/tmp1uju49xuwandb/2j5mpoy2-wandb-metadata.json
+2021-07-26 23:49:52,162 INFO    Thread-9  :14757 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/wandb-metadata.json
+2021-07-26 23:49:53,163 INFO    Thread-9  :14757 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/output.log
+2021-07-26 23:50:13,227 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:50:43,297 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:51:13,370 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:51:43,443 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:52:13,515 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:52:43,586 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:53:13,656 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:53:43,728 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:54:13,796 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:54:43,864 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:55:13,933 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:55:44,003 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:56:14,072 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:56:44,142 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:57:14,209 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:57:44,278 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:58:14,349 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:58:44,416 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:59:14,487 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-26 23:59:44,557 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:00:14,628 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:00:44,698 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:01:14,769 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:01:44,840 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:02:14,911 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:02:44,990 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:03:15,059 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:03:45,128 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:04:15,197 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:04:45,267 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:05:15,337 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:05:45,406 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:06:15,475 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:06:29,551 INFO    Thread-9  :14757 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/output.log
+2021-07-27 00:06:41,555 INFO    Thread-9  :14757 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/output.log
+2021-07-27 00:06:45,538 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:07:15,598 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:07:45,657 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:08:15,721 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:08:45,783 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:09:15,847 DEBUG   SenderThread:14757 [sender.py:send():179] send: stats
+2021-07-27 00:09:42,690 WARNING MainThread:14757 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2021-07-27 00:09:42,690 ERROR   MainThread:14757 [internal.py:wandb_internal():150] Internal process interrupted.
+2021-07-27 00:09:42,852 INFO    SenderThread:14757 [sender.py:finish():947] shutting down sender
+2021-07-27 00:09:42,852 INFO    SenderThread:14757 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-07-27 00:09:42,852 INFO    WriterThread:14757 [datastore.py:close():288] close: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/run-s6a76of9.wandb
+2021-07-27 00:09:42,876 INFO    HandlerThread:14757 [handler.py:finish():658] shutting down handler
+2021-07-27 00:09:43,588 INFO    SenderThread:14757 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/output.log
+2021-07-27 00:09:43,588 INFO    SenderThread:14757 [dir_watcher.py:finish():312] scan: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files
+2021-07-27 00:09:43,588 INFO    SenderThread:14757 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/config.yaml config.yaml
+2021-07-27 00:09:43,588 INFO    SenderThread:14757 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/output.log output.log
+2021-07-27 00:09:43,592 INFO    SenderThread:14757 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/requirements.txt requirements.txt
+2021-07-27 00:09:43,592 INFO    SenderThread:14757 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/wandb-summary.json wandb-summary.json
+2021-07-27 00:09:43,596 INFO    SenderThread:14757 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/wandb-metadata.json wandb-metadata.json
+2021-07-27 00:09:43,599 INFO    SenderThread:14757 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210726_234944-s6a76of9/files/conda-environment.yaml conda-environment.yaml
+2021-07-27 00:09:43,603 INFO    SenderThread:14757 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-27 00:09:43,603 INFO    SenderThread:14757 [file_pusher.py:join():182] waiting for file pusher
+2021-07-27 00:09:44,155 INFO    MainThread:14757 [internal.py:handle_exit():78] Internal process exited

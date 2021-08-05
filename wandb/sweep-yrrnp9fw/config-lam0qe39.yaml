@@ -1,0 +1,10 @@
+wandb_version: 1
+
+metric:
+  value: mahalanobis
+n_neighbors:
+  value: 5
+p:
+  value: 2
+weights:
+  value: distance

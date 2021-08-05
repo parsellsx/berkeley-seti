@@ -1,0 +1,10 @@
+wandb_version: 1
+
+metric:
+  value: mahalanobis
+n_neighbors:
+  value: 10
+p:
+  value: 1
+weights:
+  value: uniform

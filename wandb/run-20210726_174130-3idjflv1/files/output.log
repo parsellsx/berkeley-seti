@@ -1,0 +1,16 @@
+0
+1
+2
+3
+4
+4
+Create sweep with ID: t58vqmhu
+Sweep URL: https://wandb.ai/parsellsx/tess/sweeps/t58vqmhu
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Agent Starting Run: l4nsom8z with config:
+[34m[1mwandb[39m[22m: 	C: 0.001
+[34m[1mwandb[39m[22m: 	gamma: scale
+[34m[1mwandb[39m[22m: 	kernel: poly
+[34m[1mwandb[39m[22m: 	tol: 0.0001
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep

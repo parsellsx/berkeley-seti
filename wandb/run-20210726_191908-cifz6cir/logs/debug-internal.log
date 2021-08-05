@@ -1,0 +1,292 @@
+2021-07-26 19:19:09,510 INFO    MainThread:4159 [internal.py:wandb_internal():91] W&B internal server running at pid: 4159, started at: 2021-07-26 19:19:09.510457
+2021-07-26 19:19:09,514 DEBUG   SenderThread:4159 [sender.py:send():179] send: header
+2021-07-26 19:19:09,514 INFO    WriterThread:4159 [datastore.py:open_for_write():80] open: /home/parsellsx/berkeley-seti/wandb/run-20210726_191908-cifz6cir/run-cifz6cir.wandb
+2021-07-26 19:19:09,514 DEBUG   HandlerThread:4159 [handler.py:handle_request():124] handle_request: check_version
+2021-07-26 19:19:09,515 DEBUG   SenderThread:4159 [sender.py:send_request():193] send_request: check_version
+2021-07-26 19:19:09,572 DEBUG   SenderThread:4159 [sender.py:send():179] send: run
+2021-07-26 19:19:09,672 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:19:09,672 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:19:10,759 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:19:10,759 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:19:12,988 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:19:12,989 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:19:12,989 ERROR   SenderThread:4159 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 136, in execute
+    six.reraise(*sys.exc_info())
+  File "/opt/conda/lib/python3.7/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/opt/conda/lib/python3.7/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2021-07-26 19:19:17,423 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:19:17,424 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:19:22,848 WARNING MainThread:4159 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-07-26 19:19:26,242 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:19:26,242 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:19:26,853 WARNING MainThread:4159 [internal.py:is_dead():367] Internal process exiting, parent pid 2767 disappeared
+2021-07-26 19:19:26,853 ERROR   MainThread:4159 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-07-26 19:19:27,576 INFO    WriterThread:4159 [datastore.py:close():288] close: /home/parsellsx/berkeley-seti/wandb/run-20210726_191908-cifz6cir/run-cifz6cir.wandb
+2021-07-26 19:19:27,593 INFO    HandlerThread:4159 [handler.py:finish():658] shutting down handler
+2021-07-26 19:19:44,325 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:19:44,325 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:20:19,731 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:20:19,732 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:21:24,262 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:21:24,263 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:23:49,650 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:23:49,651 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:28:38,877 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:28:38,877 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:33:48,619 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:33:48,620 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:39:57,567 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:39:57,567 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:45:12,631 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:45:12,631 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:50:28,323 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:50:28,323 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 19:56:27,299 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 19:56:27,300 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:02:05,212 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:02:05,213 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:07:54,146 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:07:54,147 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:13:03,844 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:13:03,844 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:18:53,185 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:18:53,185 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:24:45,499 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:24:45,499 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:30:30,077 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:30:30,077 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:35:59,750 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:35:59,750 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:42:11,320 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:42:11,321 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:48:03,000 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:48:03,000 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 20:53:53,961 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 20:53:53,963 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:00:06,143 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:00:06,143 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:06:01,116 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:06:01,117 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:11:05,892 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:11:05,892 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:16:53,347 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:16:53,348 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:22:41,609 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:22:41,610 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:28:44,769 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:28:44,769 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:34:01,704 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:34:01,704 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:39:06,360 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:39:06,360 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:44:23,477 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:44:23,478 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:49:24,794 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:49:24,794 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:54:36,424 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:54:36,424 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 21:59:59,464 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 21:59:59,464 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:06:06,309 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:06:06,310 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:11:52,075 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:11:52,076 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:18:00,849 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:18:00,850 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:23:03,352 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:23:03,353 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:28:18,485 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:28:18,485 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:33:30,540 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:33:30,540 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:39:04,161 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:39:04,162 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:44:14,356 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:44:14,356 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:50:02,253 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:50:02,253 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 22:55:05,367 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 22:55:05,368 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:01:04,911 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:01:04,911 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:06:20,398 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:06:20,398 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:11:35,316 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:11:35,317 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:17:41,704 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:17:41,704 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:23:14,784 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:23:14,784 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:28:52,582 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:28:52,583 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:34:06,529 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:34:06,530 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:39:59,243 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:39:59,243 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:46:08,532 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:46:08,532 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:51:24,686 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:51:24,687 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-26 23:57:33,467 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-26 23:57:33,468 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:02:59,415 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:02:59,415 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:08:20,906 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:08:20,906 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:13:23,098 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:13:23,098 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:19:36,129 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:19:36,129 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:25:09,461 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:25:09,461 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:30:39,455 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:30:39,456 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:36:10,667 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:36:10,667 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:42:19,342 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:42:19,342 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:47:28,028 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:47:28,028 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:53:21,470 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:53:21,470 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 00:59:29,508 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 00:59:29,508 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:05:32,568 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:05:32,568 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:11:08,963 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:11:08,964 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:17:13,225 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:17:13,225 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:23:09,992 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:23:09,993 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:28:15,099 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:28:15,099 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:33:29,600 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:33:29,600 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:38:37,969 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:38:37,970 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:43:59,685 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:43:59,686 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:50:13,713 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:50:13,713 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 01:55:22,930 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 01:55:22,931 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:00:28,268 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:00:28,269 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:06:06,291 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:06:06,291 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:12:20,586 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:12:20,586 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:18:28,254 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:18:28,255 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:24:24,631 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:24:24,631 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:29:40,767 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:29:40,768 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:35:51,283 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:35:51,283 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:41:42,657 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:41:42,658 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:47:11,812 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:47:11,812 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:53:24,916 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:53:24,917 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 02:59:27,014 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 02:59:27,014 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 03:05:22,543 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 03:05:22,544 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 03:10:39,936 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 03:10:39,937 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 03:15:55,896 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 03:15:55,897 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 03:20:59,987 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 03:20:59,987 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 03:26:58,007 ERROR   SenderThread:4159 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-07-27 03:26:58,007 ERROR   SenderThread:4159 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '384396-cifz6cir' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-27 03:26:58,008 ERROR   MainThread:4159 [internal.py:wandb_internal():159] Thread SenderThread:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/opt/conda/lib/python3.7/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 925, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 135, in execute
+    self.display_gorilla_error_if_found(res)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 152, in display_gorilla_error_if_found
+    "Error while calling W&B API: {} ({})".format(err["message"], res)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/errors/term.py", line 63, in termerror
+    **kwargs
+  File "/opt/conda/lib/python3.7/site-packages/wandb/errors/term.py", line 94, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/opt/conda/lib/python3.7/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 55, in run
+    self._run()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 105, in _run
+    self._process(record)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal.py", line 292, in _process
+    self._sm.send(record)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 181, in send
+    send_handler(record)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 604, in send_run
+    self._init_run(run, config_value_dict)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 640, in _init_run
+    commit=repo.last_commit,
+  File "/opt/conda/lib/python3.7/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/opt/conda/lib/python3.7/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 925, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 135, in execute
+    self.display_gorilla_error_if_found(res)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 152, in display_gorilla_error_if_found
+    "Error while calling W&B API: {} ({})".format(err["message"], res)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/errors/term.py", line 63, in termerror
+    **kwargs
+  File "/opt/conda/lib/python3.7/site-packages/wandb/errors/term.py", line 94, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/opt/conda/lib/python3.7/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+wandb.errors.CommError: [Errno 5] Input/output error
+2021-07-27 03:26:58,013 INFO    MainThread:4159 [internal.py:handle_exit():78] Internal process exited

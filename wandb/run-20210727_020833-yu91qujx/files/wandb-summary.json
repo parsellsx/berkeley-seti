@@ -1,0 +1,1 @@
+{"accuracy": 0.7919463087248322, "precision": 0.8079044117647058, "confusion matrix": [[879, 225], [209, 773]], "recall": 0.7961956521739131, "_runtime": 6, "_timestamp": 1627351719, "_step": 0}
