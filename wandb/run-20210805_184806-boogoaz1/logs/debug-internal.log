@@ -1,0 +1,149 @@
+2021-08-05 18:48:06,908 INFO    MainThread:6392 [internal.py:wandb_internal():91] W&B internal server running at pid: 6392, started at: 2021-08-05 18:48:06.907984
+2021-08-05 18:48:06,911 DEBUG   SenderThread:6392 [sender.py:send():179] send: header
+2021-08-05 18:48:06,911 INFO    WriterThread:6392 [datastore.py:open_for_write():80] open: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/run-boogoaz1.wandb
+2021-08-05 18:48:06,912 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: check_version
+2021-08-05 18:48:06,912 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: check_version
+2021-08-05 18:48:06,969 DEBUG   SenderThread:6392 [sender.py:send():179] send: run
+2021-08-05 18:48:07,086 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: run_start
+2021-08-05 18:48:07,088 INFO    SenderThread:6392 [dir_watcher.py:__init__():168] watching files in: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files
+2021-08-05 18:48:07,088 INFO    SenderThread:6392 [sender.py:_start_run_threads():719] run started: boogoaz1 with start time 1628189286
+2021-08-05 18:48:07,088 DEBUG   SenderThread:6392 [sender.py:send():179] send: summary
+2021-08-05 18:48:07,089 DEBUG   HandlerThread:6392 [meta.py:__init__():39] meta init
+2021-08-05 18:48:07,091 DEBUG   HandlerThread:6392 [meta.py:__init__():53] meta init done
+2021-08-05 18:48:07,092 DEBUG   HandlerThread:6392 [meta.py:probe():210] probe
+2021-08-05 18:48:07,089 INFO    SenderThread:6392 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-08-05 18:48:07,098 DEBUG   HandlerThread:6392 [meta.py:_setup_git():200] setup git
+2021-08-05 18:48:07,117 DEBUG   HandlerThread:6392 [meta.py:_setup_git():207] setup git done
+2021-08-05 18:48:07,117 DEBUG   HandlerThread:6392 [meta.py:_save_pip():57] save pip
+2021-08-05 18:48:07,118 DEBUG   HandlerThread:6392 [meta.py:_save_pip():71] save pip done
+2021-08-05 18:48:07,118 DEBUG   HandlerThread:6392 [meta.py:_save_conda():78] save conda
+2021-08-05 18:48:08,091 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/wandb-summary.json
+2021-08-05 18:48:08,092 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/requirements.txt
+2021-08-05 18:48:08,092 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/conda-environment.yaml
+2021-08-05 18:48:12,983 DEBUG   HandlerThread:6392 [meta.py:_save_conda():86] save conda done
+2021-08-05 18:48:12,983 DEBUG   HandlerThread:6392 [meta.py:probe():252] probe done
+2021-08-05 18:48:12,987 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-05 18:48:12,988 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: stop_status
+2021-08-05 18:48:13,055 DEBUG   SenderThread:6392 [sender.py:send():179] send: files
+2021-08-05 18:48:13,056 INFO    SenderThread:6392 [sender.py:_save_file():841] saving file media/images/confusion_matrix_plot_0_f2ea8355f9fae5bf060d.png with policy now
+2021-08-05 18:48:13,056 DEBUG   SenderThread:6392 [sender.py:send():179] send: files
+2021-08-05 18:48:13,056 INFO    SenderThread:6392 [sender.py:_save_file():841] saving file media/images/precision_recall_plot_0_a47d3b09bd904eb7e703.png with policy now
+2021-08-05 18:48:13,057 DEBUG   SenderThread:6392 [sender.py:send():179] send: history
+2021-08-05 18:48:13,057 DEBUG   SenderThread:6392 [sender.py:send():179] send: summary
+2021-08-05 18:48:13,060 INFO    SenderThread:6392 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-08-05 18:48:13,060 DEBUG   SenderThread:6392 [sender.py:send():179] send: files
+2021-08-05 18:48:13,060 INFO    SenderThread:6392 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-08-05 18:48:13,090 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/wandb-summary.json
+2021-08-05 18:48:13,091 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/conda-environment.yaml
+2021-08-05 18:48:13,091 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/wandb-metadata.json
+2021-08-05 18:48:13,091 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/media/images/confusion_matrix_plot_0_f2ea8355f9fae5bf060d.png
+2021-08-05 18:48:13,091 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/output.log
+2021-08-05 18:48:13,092 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/media/images/precision_recall_plot_0_a47d3b09bd904eb7e703.png
+2021-08-05 18:48:13,092 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/media
+2021-08-05 18:48:13,092 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/media/images
+2021-08-05 18:48:13,105 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-05 18:48:13,105 DEBUG   SenderThread:6392 [sender.py:send():179] send: telemetry
+2021-08-05 18:48:13,105 DEBUG   SenderThread:6392 [sender.py:send():179] send: exit
+2021-08-05 18:48:13,105 INFO    SenderThread:6392 [sender.py:send_exit():287] handling exit code: 0
+2021-08-05 18:48:13,106 INFO    SenderThread:6392 [sender.py:send_exit():295] send defer
+2021-08-05 18:48:13,106 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: poll_exit
+2021-08-05 18:48:13,106 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:13,107 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 0
+2021-08-05 18:48:13,107 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:13,107 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-08-05 18:48:13,107 INFO    SenderThread:6392 [sender.py:transition_state():308] send defer: 1
+2021-08-05 18:48:13,107 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:13,107 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 1
+2021-08-05 18:48:13,121 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:13,122 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-08-05 18:48:13,122 INFO    SenderThread:6392 [sender.py:transition_state():308] send defer: 2
+2021-08-05 18:48:13,122 DEBUG   SenderThread:6392 [sender.py:send():179] send: stats
+2021-08-05 18:48:13,122 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:13,122 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 2
+2021-08-05 18:48:13,122 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:13,122 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-08-05 18:48:13,122 INFO    SenderThread:6392 [sender.py:transition_state():308] send defer: 3
+2021-08-05 18:48:13,123 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:13,123 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 3
+2021-08-05 18:48:13,123 DEBUG   SenderThread:6392 [sender.py:send():179] send: summary
+2021-08-05 18:48:13,123 INFO    SenderThread:6392 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-08-05 18:48:13,123 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:13,123 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-08-05 18:48:13,124 INFO    SenderThread:6392 [sender.py:transition_state():308] send defer: 4
+2021-08-05 18:48:13,124 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:13,124 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 4
+2021-08-05 18:48:13,124 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:13,124 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-08-05 18:48:13,214 INFO    SenderThread:6392 [sender.py:transition_state():308] send defer: 5
+2021-08-05 18:48:13,215 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:13,215 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 5
+2021-08-05 18:48:13,215 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:13,215 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-08-05 18:48:13,215 INFO    SenderThread:6392 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-05 18:48:13,215 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-05 18:48:13,370 INFO    Thread-13 :6392 [upload_job.py:push():137] Uploaded file /tmp/tmpmxlo_mblwandb/2sid7dfa-wandb-metadata.json
+2021-08-05 18:48:13,379 INFO    Thread-11 :6392 [upload_job.py:push():137] Uploaded file /tmp/tmpmxlo_mblwandb/9egrridr-media/images/confusion_matrix_plot_0_f2ea8355f9fae5bf060d.png
+2021-08-05 18:48:13,395 INFO    Thread-12 :6392 [upload_job.py:push():137] Uploaded file /tmp/tmpmxlo_mblwandb/23fvmx7r-media/images/precision_recall_plot_0_a47d3b09bd904eb7e703.png
+2021-08-05 18:48:14,091 INFO    Thread-8  :6392 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/wandb-summary.json
+2021-08-05 18:48:14,091 INFO    SenderThread:6392 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/config.yaml
+2021-08-05 18:48:14,092 INFO    SenderThread:6392 [dir_watcher.py:finish():312] scan: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files
+2021-08-05 18:48:14,092 INFO    SenderThread:6392 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/config.yaml config.yaml
+2021-08-05 18:48:14,092 INFO    SenderThread:6392 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/requirements.txt requirements.txt
+2021-08-05 18:48:14,093 INFO    SenderThread:6392 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/conda-environment.yaml conda-environment.yaml
+2021-08-05 18:48:14,099 INFO    SenderThread:6392 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/wandb-summary.json wandb-summary.json
+2021-08-05 18:48:14,100 INFO    SenderThread:6392 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/wandb-metadata.json wandb-metadata.json
+2021-08-05 18:48:14,100 INFO    SenderThread:6392 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/output.log output.log
+2021-08-05 18:48:14,104 INFO    SenderThread:6392 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/media/images/confusion_matrix_plot_0_f2ea8355f9fae5bf060d.png media/images/confusion_matrix_plot_0_f2ea8355f9fae5bf060d.png
+2021-08-05 18:48:14,105 INFO    SenderThread:6392 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/media/images/precision_recall_plot_0_a47d3b09bd904eb7e703.png media/images/precision_recall_plot_0_a47d3b09bd904eb7e703.png
+2021-08-05 18:48:14,105 INFO    SenderThread:6392 [sender.py:transition_state():308] send defer: 6
+2021-08-05 18:48:14,105 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: poll_exit
+2021-08-05 18:48:14,105 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:14,106 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 6
+2021-08-05 18:48:14,106 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:14,106 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-08-05 18:48:14,106 INFO    SenderThread:6392 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-05 18:48:14,211 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-05 18:48:14,211 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: poll_exit
+2021-08-05 18:48:14,313 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-05 18:48:14,314 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: poll_exit
+2021-08-05 18:48:14,400 INFO    Thread-16 :6392 [upload_job.py:push():137] Uploaded file /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/conda-environment.yaml
+2021-08-05 18:48:14,415 INFO    Thread-14 :6392 [upload_job.py:push():137] Uploaded file /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/config.yaml
+2021-08-05 18:48:14,416 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-05 18:48:14,416 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: poll_exit
+2021-08-05 18:48:14,454 INFO    Thread-15 :6392 [upload_job.py:push():137] Uploaded file /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/requirements.txt
+2021-08-05 18:48:14,460 INFO    Thread-17 :6392 [upload_job.py:push():137] Uploaded file /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/files/wandb-summary.json
+2021-08-05 18:48:14,518 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-05 18:48:14,518 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: poll_exit
+2021-08-05 18:48:14,619 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-05 18:48:14,620 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: poll_exit
+2021-08-05 18:48:14,661 INFO    Thread-7  :6392 [sender.py:transition_state():308] send defer: 7
+2021-08-05 18:48:14,661 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:14,662 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 7
+2021-08-05 18:48:14,662 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:14,662 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-08-05 18:48:14,721 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-05 18:48:14,820 INFO    SenderThread:6392 [sender.py:transition_state():308] send defer: 8
+2021-08-05 18:48:14,820 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: poll_exit
+2021-08-05 18:48:14,820 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:14,820 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 8
+2021-08-05 18:48:14,821 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:14,821 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-08-05 18:48:14,821 INFO    SenderThread:6392 [sender.py:transition_state():308] send defer: 9
+2021-08-05 18:48:14,821 DEBUG   SenderThread:6392 [sender.py:send():179] send: final
+2021-08-05 18:48:14,822 DEBUG   SenderThread:6392 [sender.py:send():179] send: footer
+2021-08-05 18:48:14,822 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: defer
+2021-08-05 18:48:14,822 INFO    HandlerThread:6392 [handler.py:handle_request_defer():141] handle defer: 9
+2021-08-05 18:48:14,822 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: defer
+2021-08-05 18:48:14,822 INFO    SenderThread:6392 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-08-05 18:48:14,921 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-05 18:48:14,922 DEBUG   SenderThread:6392 [sender.py:send_request():193] send_request: poll_exit
+2021-08-05 18:48:14,922 INFO    SenderThread:6392 [file_pusher.py:join():182] waiting for file pusher
+2021-08-05 18:48:14,925 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: get_summary
+2021-08-05 18:48:14,926 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: sampled_history
+2021-08-05 18:48:14,928 DEBUG   HandlerThread:6392 [handler.py:handle_request():124] handle_request: shutdown
+2021-08-05 18:48:14,928 INFO    HandlerThread:6392 [handler.py:finish():658] shutting down handler
+2021-08-05 18:48:15,822 INFO    WriterThread:6392 [datastore.py:close():288] close: /home/parsellsx/berkeley-seti/wandb/run-20210805_184806-boogoaz1/run-boogoaz1.wandb
+2021-08-05 18:48:15,922 INFO    SenderThread:6392 [sender.py:finish():947] shutting down sender
+2021-08-05 18:48:15,922 INFO    SenderThread:6392 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-05 18:48:15,922 INFO    SenderThread:6392 [file_pusher.py:join():182] waiting for file pusher
+2021-08-05 18:48:15,925 INFO    MainThread:6392 [internal.py:handle_exit():78] Internal process exited
