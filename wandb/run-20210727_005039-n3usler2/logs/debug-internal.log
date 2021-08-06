@@ -1,0 +1,140 @@
+2021-07-27 00:50:40,153 INFO    MainThread:16093 [internal.py:wandb_internal():91] W&B internal server running at pid: 16093, started at: 2021-07-27 00:50:40.152610
+2021-07-27 00:50:40,156 INFO    WriterThread:16093 [datastore.py:open_for_write():80] open: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/run-n3usler2.wandb
+2021-07-27 00:50:40,157 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: check_version
+2021-07-27 00:50:40,157 DEBUG   SenderThread:16093 [sender.py:send():179] send: header
+2021-07-27 00:50:40,157 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: check_version
+2021-07-27 00:50:40,212 DEBUG   SenderThread:16093 [sender.py:send():179] send: run
+2021-07-27 00:50:40,314 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: run_start
+2021-07-27 00:50:40,316 DEBUG   HandlerThread:16093 [meta.py:__init__():39] meta init
+2021-07-27 00:50:40,316 DEBUG   HandlerThread:16093 [meta.py:__init__():53] meta init done
+2021-07-27 00:50:40,316 DEBUG   HandlerThread:16093 [meta.py:probe():210] probe
+2021-07-27 00:50:40,316 INFO    SenderThread:16093 [dir_watcher.py:__init__():168] watching files in: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files
+2021-07-27 00:50:40,316 INFO    SenderThread:16093 [sender.py:_start_run_threads():719] run started: n3usler2 with start time 1627347039
+2021-07-27 00:50:40,316 DEBUG   SenderThread:16093 [sender.py:send():179] send: summary
+2021-07-27 00:50:40,321 DEBUG   HandlerThread:16093 [meta.py:_setup_git():200] setup git
+2021-07-27 00:50:40,321 INFO    SenderThread:16093 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-27 00:50:40,340 DEBUG   HandlerThread:16093 [meta.py:_setup_git():207] setup git done
+2021-07-27 00:50:40,340 DEBUG   HandlerThread:16093 [meta.py:_save_pip():57] save pip
+2021-07-27 00:50:40,341 DEBUG   HandlerThread:16093 [meta.py:_save_pip():71] save pip done
+2021-07-27 00:50:40,341 DEBUG   HandlerThread:16093 [meta.py:_save_conda():78] save conda
+2021-07-27 00:50:41,317 INFO    Thread-8  :16093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/conda-environment.yaml
+2021-07-27 00:50:41,318 INFO    Thread-8  :16093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/wandb-summary.json
+2021-07-27 00:50:41,318 INFO    Thread-8  :16093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/requirements.txt
+2021-07-27 00:50:46,317 INFO    Thread-8  :16093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/conda-environment.yaml
+2021-07-27 00:50:46,317 INFO    Thread-8  :16093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/output.log
+2021-07-27 00:50:46,440 DEBUG   HandlerThread:16093 [meta.py:_save_conda():86] save conda done
+2021-07-27 00:50:46,440 DEBUG   HandlerThread:16093 [meta.py:probe():252] probe done
+2021-07-27 00:50:46,444 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 00:50:46,444 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 00:50:46,448 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:46,521 DEBUG   SenderThread:16093 [sender.py:send():179] send: history
+2021-07-27 00:50:46,522 DEBUG   SenderThread:16093 [sender.py:send():179] send: summary
+2021-07-27 00:50:46,524 INFO    SenderThread:16093 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-27 00:50:46,524 DEBUG   SenderThread:16093 [sender.py:send():179] send: telemetry
+2021-07-27 00:50:46,524 DEBUG   SenderThread:16093 [sender.py:send():179] send: exit
+2021-07-27 00:50:46,524 INFO    SenderThread:16093 [sender.py:send_exit():287] handling exit code: 0
+2021-07-27 00:50:46,524 INFO    SenderThread:16093 [sender.py:send_exit():295] send defer
+2021-07-27 00:50:46,525 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:46,525 DEBUG   SenderThread:16093 [sender.py:send():179] send: files
+2021-07-27 00:50:46,525 INFO    SenderThread:16093 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-27 00:50:46,525 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:46,525 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 0
+2021-07-27 00:50:46,532 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:46,532 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-07-27 00:50:46,532 INFO    SenderThread:16093 [sender.py:transition_state():308] send defer: 1
+2021-07-27 00:50:46,532 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:46,532 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 1
+2021-07-27 00:50:46,545 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:46,546 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-07-27 00:50:46,546 INFO    SenderThread:16093 [sender.py:transition_state():308] send defer: 2
+2021-07-27 00:50:46,546 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:46,546 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 2
+2021-07-27 00:50:46,547 DEBUG   SenderThread:16093 [sender.py:send():179] send: stats
+2021-07-27 00:50:46,547 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:46,547 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-07-27 00:50:46,547 INFO    SenderThread:16093 [sender.py:transition_state():308] send defer: 3
+2021-07-27 00:50:46,547 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:46,547 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 3
+2021-07-27 00:50:46,548 DEBUG   SenderThread:16093 [sender.py:send():179] send: summary
+2021-07-27 00:50:46,548 INFO    SenderThread:16093 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-27 00:50:46,548 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:46,549 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-07-27 00:50:46,549 INFO    SenderThread:16093 [sender.py:transition_state():308] send defer: 4
+2021-07-27 00:50:46,549 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:46,549 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 4
+2021-07-27 00:50:46,549 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:46,549 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-07-27 00:50:46,636 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:46,651 INFO    SenderThread:16093 [sender.py:transition_state():308] send defer: 5
+2021-07-27 00:50:46,651 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:46,652 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:46,652 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 5
+2021-07-27 00:50:46,652 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:46,652 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-07-27 00:50:46,652 INFO    SenderThread:16093 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-07-27 00:50:46,754 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:46,838 INFO    Thread-11 :16093 [upload_job.py:push():137] Uploaded file /tmp/tmp_ha4nkl9wandb/jxvik5ip-wandb-metadata.json
+2021-07-27 00:50:47,317 INFO    Thread-8  :16093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/wandb-summary.json
+2021-07-27 00:50:47,318 INFO    SenderThread:16093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/config.yaml
+2021-07-27 00:50:47,318 INFO    SenderThread:16093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/output.log
+2021-07-27 00:50:47,318 INFO    SenderThread:16093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/wandb-metadata.json
+2021-07-27 00:50:47,319 INFO    SenderThread:16093 [dir_watcher.py:finish():312] scan: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files
+2021-07-27 00:50:47,319 INFO    SenderThread:16093 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/config.yaml config.yaml
+2021-07-27 00:50:47,319 INFO    SenderThread:16093 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/output.log output.log
+2021-07-27 00:50:47,319 INFO    SenderThread:16093 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/requirements.txt requirements.txt
+2021-07-27 00:50:47,320 INFO    SenderThread:16093 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/wandb-summary.json wandb-summary.json
+2021-07-27 00:50:47,323 INFO    SenderThread:16093 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/wandb-metadata.json wandb-metadata.json
+2021-07-27 00:50:47,323 INFO    SenderThread:16093 [dir_watcher.py:finish():318] scan save: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/conda-environment.yaml conda-environment.yaml
+2021-07-27 00:50:47,324 INFO    SenderThread:16093 [sender.py:transition_state():308] send defer: 6
+2021-07-27 00:50:47,324 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:47,327 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:47,327 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 6
+2021-07-27 00:50:47,334 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:47,335 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-07-27 00:50:47,335 INFO    SenderThread:16093 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-27 00:50:47,432 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:47,433 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:47,536 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:47,536 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:47,606 INFO    Thread-13 :16093 [upload_job.py:push():137] Uploaded file /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/output.log
+2021-07-27 00:50:47,640 INFO    Thread-16 :16093 [upload_job.py:push():137] Uploaded file /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/conda-environment.yaml
+2021-07-27 00:50:47,641 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:47,641 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:47,645 INFO    Thread-14 :16093 [upload_job.py:push():137] Uploaded file /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/requirements.txt
+2021-07-27 00:50:47,657 INFO    Thread-15 :16093 [upload_job.py:push():137] Uploaded file /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/wandb-summary.json
+2021-07-27 00:50:47,739 INFO    Thread-12 :16093 [upload_job.py:push():137] Uploaded file /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/files/config.yaml
+2021-07-27 00:50:47,742 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:47,743 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:47,844 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:47,844 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:47,940 INFO    Thread-7  :16093 [sender.py:transition_state():308] send defer: 7
+2021-07-27 00:50:47,940 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:47,940 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 7
+2021-07-27 00:50:47,941 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:47,941 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-07-27 00:50:47,946 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:48,082 INFO    SenderThread:16093 [sender.py:transition_state():308] send defer: 8
+2021-07-27 00:50:48,082 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:48,082 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:48,082 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 8
+2021-07-27 00:50:48,083 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:48,083 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-07-27 00:50:48,083 INFO    SenderThread:16093 [sender.py:transition_state():308] send defer: 9
+2021-07-27 00:50:48,084 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: defer
+2021-07-27 00:50:48,084 INFO    HandlerThread:16093 [handler.py:handle_request_defer():141] handle defer: 9
+2021-07-27 00:50:48,084 DEBUG   SenderThread:16093 [sender.py:send():179] send: final
+2021-07-27 00:50:48,084 DEBUG   SenderThread:16093 [sender.py:send():179] send: footer
+2021-07-27 00:50:48,084 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: defer
+2021-07-27 00:50:48,084 INFO    SenderThread:16093 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-07-27 00:50:48,184 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-27 00:50:48,184 DEBUG   SenderThread:16093 [sender.py:send_request():193] send_request: poll_exit
+2021-07-27 00:50:48,184 INFO    SenderThread:16093 [file_pusher.py:join():182] waiting for file pusher
+2021-07-27 00:50:48,186 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: get_summary
+2021-07-27 00:50:48,187 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: sampled_history
+2021-07-27 00:50:48,188 DEBUG   HandlerThread:16093 [handler.py:handle_request():124] handle_request: shutdown
+2021-07-27 00:50:48,188 INFO    HandlerThread:16093 [handler.py:finish():658] shutting down handler
+2021-07-27 00:50:49,084 INFO    WriterThread:16093 [datastore.py:close():288] close: /home/parsellsx/berkeley-seti/wandb/run-20210727_005039-n3usler2/run-n3usler2.wandb
+2021-07-27 00:50:49,185 INFO    SenderThread:16093 [sender.py:finish():947] shutting down sender
+2021-07-27 00:50:49,185 INFO    SenderThread:16093 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-27 00:50:49,185 INFO    SenderThread:16093 [file_pusher.py:join():182] waiting for file pusher
+2021-07-27 00:50:49,186 INFO    MainThread:16093 [internal.py:handle_exit():78] Internal process exited

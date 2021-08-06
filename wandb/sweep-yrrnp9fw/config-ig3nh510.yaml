@@ -1,0 +1,10 @@
+wandb_version: 1
+
+metric:
+  value: minkowski
+n_neighbors:
+  value: 3
+p:
+  value: 3
+weights:
+  value: distance

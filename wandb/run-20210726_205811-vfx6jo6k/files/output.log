@@ -1,0 +1,2 @@
+/opt/conda/lib/python3.7/site-packages/sklearn/metrics/pairwise.py:1466: FutureWarning: from version 1.0 (renaming of 0.25), pairwise_distances for metric='mahalanobis' will require VI to be specified if Y is passed.
+  FutureWarning

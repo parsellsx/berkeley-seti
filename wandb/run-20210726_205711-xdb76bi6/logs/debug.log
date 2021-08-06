@@ -1,0 +1,26 @@
+2021-07-26 20:57:11,640 INFO    Thread-1721:4174 [wandb_setup.py:_flush():69] setting env: {'project': 'tess', 'entity': 'parsellsx', 'root_dir': '/home/parsellsx/berkeley-seti', 'run_id': 'xdb76bi6', 'sweep_param_path': '/home/parsellsx/berkeley-seti/wandb/sweep-yrrnp9fw/config-xdb76bi6.yaml', 'sweep_id': 'yrrnp9fw'}
+2021-07-26 20:57:11,640 INFO    Thread-1721:4174 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-26 20:57:11,640 INFO    Thread-1721:4174 [wandb_init.py:_log_setup():337] Logging user logs to /home/parsellsx/berkeley-seti/wandb/run-20210726_205711-xdb76bi6/logs/debug.log
+2021-07-26 20:57:11,640 INFO    Thread-1721:4174 [wandb_init.py:_log_setup():338] Logging internal logs to /home/parsellsx/berkeley-seti/wandb/run-20210726_205711-xdb76bi6/logs/debug-internal.log
+2021-07-26 20:57:11,641 INFO    Thread-1721:4174 [wandb_init.py:init():370] calling init triggers
+2021-07-26 20:57:11,641 INFO    Thread-1721:4174 [wandb_init.py:init():377] wandb.init called with sweep_config: {'metric': 'mahalanobis', 'n_neighbors': 1, 'p': 2, 'weights': 'distance'}
+config: {}
+2021-07-26 20:57:11,641 INFO    Thread-1721:4174 [wandb_init.py:init():419] starting backend
+2021-07-26 20:57:11,641 INFO    Thread-1721:4174 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-07-26 20:57:11,644 INFO    Thread-1721:4174 [backend.py:ensure_launched():135] starting backend process...
+2021-07-26 20:57:11,654 INFO    Thread-1721:4174 [backend.py:ensure_launched():140] started backend process with pid: 12378
+2021-07-26 20:57:11,656 INFO    Thread-1721:4174 [wandb_init.py:init():424] backend started and connected
+2021-07-26 20:57:11,687 INFO    Thread-1721:4174 [wandb_run.py:_config_callback():872] config_cb None None {'metric': 'mahalanobis', 'n_neighbors': 1, 'p': 2, 'weights': 'distance'}
+2021-07-26 20:57:11,688 INFO    Thread-1721:4174 [wandb_run.py:_label_probe_notebook():844] probe notebook
+2021-07-26 20:57:11,688 INFO    Thread-1721:4174 [wandb_run.py:_label_probe_notebook():851] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-07-26 20:57:11,688 INFO    Thread-1721:4174 [wandb_init.py:init():472] updated telemetry
+2021-07-26 20:57:11,688 INFO    Thread-1721:4174 [wandb_init.py:init():491] communicating current version
+2021-07-26 20:57:12,340 INFO    Thread-1721:4174 [wandb_init.py:init():496] got version response 
+2021-07-26 20:57:12,340 INFO    Thread-1721:4174 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-07-26 20:57:12,444 INFO    Thread-1721:4174 [wandb_init.py:init():529] starting run threads in backend
+2021-07-26 20:57:17,457 INFO    Thread-1721:4174 [wandb_run.py:_console_start():1623] atexit reg
+2021-07-26 20:57:17,458 INFO    Thread-1721:4174 [wandb_run.py:_redirect():1497] redirect: SettingsConsole.WRAP
+2021-07-26 20:57:17,458 INFO    Thread-1721:4174 [wandb_run.py:_redirect():1534] Wrapping output streams.
+2021-07-26 20:57:17,459 INFO    Thread-1721:4174 [wandb_run.py:_redirect():1558] Redirects installed.
+2021-07-26 20:57:17,459 INFO    Thread-1721:4174 [wandb_init.py:init():554] run started, returning control to user process
+2021-07-26 20:57:20,024 INFO    Thread-1721:4174 [wandb_run.py:finish():1293] finishing run parsellsx/tess/xdb76bi6

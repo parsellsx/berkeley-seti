@@ -1,0 +1,10 @@
+wandb_version: 1
+
+C:
+  value: 0.01
+gamma:
+  value: scale
+kernel:
+  value: sigmoid
+tol:
+  value: 0.01

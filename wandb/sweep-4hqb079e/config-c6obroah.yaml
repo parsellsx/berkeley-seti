@@ -1,0 +1,10 @@
+wandb_version: 1
+
+C:
+  value: 0.001
+gamma:
+  value: scale
+kernel:
+  value: poly
+tol:
+  value: 0.01

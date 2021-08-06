@@ -1,0 +1,55 @@
+
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+[34m[1mwandb[39m[22m: Agent Starting Run: dj2o0uuh with config:
+[34m[1mwandb[39m[22m: 	criterion: gini
+[34m[1mwandb[39m[22m: 	max_depth: 3
+[34m[1mwandb[39m[22m: 	max_features: sqrt
+[34m[1mwandb[39m[22m: 	min_samples_split: 2
+[34m[1mwandb[39m[22m: 	n_estimators: 1
+[34m[1mwandb[39m[22m: 	n_jobs: -1
+[34m[1mwandb[39m[22m: 	random_state: 42
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep
+[34m[1mwandb[39m[22m: Processing terminal ouput (stdout)...
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Agent Starting Run: argmxovp with config:
+[34m[1mwandb[39m[22m: 	criterion: gini
+[34m[1mwandb[39m[22m: 	max_depth: 3
+[34m[1mwandb[39m[22m: 	max_features: sqrt
+[34m[1mwandb[39m[22m: 	min_samples_split: 2
+[34m[1mwandb[39m[22m: 	n_estimators: 1
+[34m[1mwandb[39m[22m: 	n_jobs: -1
+[34m[1mwandb[39m[22m: 	random_state: 42
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep
+[34m[1mwandb[39m[22m: Processing terminal ouput (stdout)...
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+Exception in thread Thread-2086:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 183, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 754, in communicate_network_status
+    resp = self._communicate(req, timeout=timeout, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 544, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 549, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread Thread-2085:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 201, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 742, in communicate_stop_status
+    resp = self._communicate(req, timeout=timeout, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 544, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 549, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

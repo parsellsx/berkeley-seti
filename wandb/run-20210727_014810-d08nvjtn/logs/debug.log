@@ -1,0 +1,27 @@
+2021-07-27 01:48:10,784 INFO    Thread-4487:15195 [wandb_setup.py:_flush():69] setting env: {'project': 'tess', 'entity': 'parsellsx', 'root_dir': '/home/parsellsx/berkeley-seti', 'run_id': 'd08nvjtn', 'sweep_param_path': '/home/parsellsx/berkeley-seti/wandb/sweep-hi03tv69/config-d08nvjtn.yaml', 'sweep_id': 'hi03tv69'}
+2021-07-27 01:48:10,784 INFO    Thread-4487:15195 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-27 01:48:10,784 INFO    Thread-4487:15195 [wandb_init.py:_log_setup():337] Logging user logs to /home/parsellsx/berkeley-seti/wandb/run-20210727_014810-d08nvjtn/logs/debug.log
+2021-07-27 01:48:10,784 INFO    Thread-4487:15195 [wandb_init.py:_log_setup():338] Logging internal logs to /home/parsellsx/berkeley-seti/wandb/run-20210727_014810-d08nvjtn/logs/debug-internal.log
+2021-07-27 01:48:10,785 INFO    Thread-4487:15195 [wandb_init.py:_jupyter_setup():288] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fa361f9cfd0>
+2021-07-27 01:48:10,785 INFO    Thread-4487:15195 [wandb_init.py:init():370] calling init triggers
+2021-07-27 01:48:10,785 INFO    Thread-4487:15195 [wandb_init.py:init():377] wandb.init called with sweep_config: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 1000, 'n_jobs': -1, 'random_state': 42}
+config: {}
+2021-07-27 01:48:10,785 INFO    Thread-4487:15195 [wandb_init.py:init():419] starting backend
+2021-07-27 01:48:10,785 INFO    Thread-4487:15195 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-07-27 01:48:10,789 INFO    Thread-4487:15195 [backend.py:ensure_launched():135] starting backend process...
+2021-07-27 01:48:10,810 INFO    Thread-4487:15195 [backend.py:ensure_launched():140] started backend process with pid: 28333
+2021-07-27 01:48:10,814 INFO    Thread-4487:15195 [wandb_init.py:init():424] backend started and connected
+2021-07-27 01:48:10,841 INFO    Thread-4487:15195 [wandb_run.py:_config_callback():872] config_cb None None {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 1000, 'n_jobs': -1, 'random_state': 42}
+2021-07-27 01:48:10,841 INFO    Thread-4487:15195 [wandb_run.py:_label_probe_notebook():844] probe notebook
+2021-07-27 01:48:10,841 INFO    Thread-4487:15195 [wandb_run.py:_label_probe_notebook():851] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-07-27 01:48:10,842 INFO    Thread-4487:15195 [wandb_init.py:init():472] updated telemetry
+2021-07-27 01:48:10,843 INFO    Thread-4487:15195 [wandb_init.py:init():491] communicating current version
+2021-07-27 01:48:11,472 INFO    Thread-4487:15195 [wandb_init.py:init():496] got version response 
+2021-07-27 01:48:11,472 INFO    Thread-4487:15195 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-07-27 01:48:11,571 INFO    Thread-4487:15195 [wandb_init.py:init():529] starting run threads in backend
+2021-07-27 01:48:16,583 INFO    Thread-4487:15195 [wandb_run.py:_console_start():1623] atexit reg
+2021-07-27 01:48:16,583 INFO    Thread-4487:15195 [wandb_run.py:_redirect():1497] redirect: SettingsConsole.WRAP
+2021-07-27 01:48:16,583 INFO    Thread-4487:15195 [wandb_run.py:_redirect():1534] Wrapping output streams.
+2021-07-27 01:48:16,584 INFO    Thread-4487:15195 [wandb_run.py:_redirect():1558] Redirects installed.
+2021-07-27 01:48:16,584 INFO    Thread-4487:15195 [wandb_init.py:init():554] run started, returning control to user process
+2021-07-27 01:48:27,389 INFO    Thread-4487:15195 [wandb_run.py:finish():1293] finishing run parsellsx/tess/d08nvjtn

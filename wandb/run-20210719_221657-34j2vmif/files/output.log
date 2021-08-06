@@ -1,0 +1,13 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: 4hqb079e
+Sweep URL: https://wandb.ai/parsellsx/tess/sweeps/4hqb079e
+5
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Sweep Agent: Waiting for job.
+[34m[1mwandb[39m[22m: Job received.
+[34m[1mwandb[39m[22m: Agent Starting Run: vuc38wm2 with config:
+[34m[1mwandb[39m[22m: 	C: 0.001
+[34m[1mwandb[39m[22m: 	gamma: scale
+[34m[1mwandb[39m[22m: 	kernel: poly
+[34m[1mwandb[39m[22m: 	tol: 0.0001
