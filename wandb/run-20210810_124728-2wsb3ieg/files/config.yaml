@@ -1,0 +1,40 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.11.2
+    framework: sklearn
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.7.10
+    t:
+      1:
+      - 5
+      2:
+      - 5
+      3:
+      - 2
+      4: 3.7.10
+      5: 0.11.2
+      8:
+      - 1
+      - 5
+algorithm:
+  desc: null
+  value: kd_tree
+leaf_size:
+  desc: null
+  value: 36
+metric:
+  desc: null
+  value: manhattan
+n_neighbors:
+  desc: null
+  value: 18
+p:
+  desc: null
+  value: 2
+weights:
+  desc: null
+  value: uniform
