@@ -1,0 +1,28 @@
+2021-08-10 23:34:08,790 INFO    MainThread:8489 [wandb_setup.py:_flush():69] setting env: {}
+2021-08-10 23:34:08,790 INFO    MainThread:8489 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-10 23:34:08,790 INFO    MainThread:8489 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-10 23:34:08,790 INFO    MainThread:8489 [wandb_init.py:_log_setup():338] Logging user logs to /home/parsellsx/berkeley-seti/wandb/run-20210810_233408-1wylabyu/logs/debug.log
+2021-08-10 23:34:08,790 INFO    MainThread:8489 [wandb_init.py:_log_setup():339] Logging internal logs to /home/parsellsx/berkeley-seti/wandb/run-20210810_233408-1wylabyu/logs/debug-internal.log
+2021-08-10 23:34:08,790 INFO    MainThread:8489 [wandb_init.py:_jupyter_setup():289] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fc1d621c750>
+2021-08-10 23:34:08,791 INFO    MainThread:8489 [wandb_init.py:init():371] calling init triggers
+2021-08-10 23:34:08,791 INFO    MainThread:8489 [wandb_init.py:init():378] wandb.init called with sweep_config: {}
+config: {'n_estimators': 700, 'criterion': 'entropy', 'max_depth': 50, 'min_samples_split': 13, 'max_features': 0.8303217529492485, 'min_samples_leaf': 16, 'class_weight': None, 'ccp_alpha': 0.007953601475707478, 'max_samples': 900, 'max_leaf_nodes': None, 'bootstrap': True}
+2021-08-10 23:34:08,791 INFO    MainThread:8489 [wandb_init.py:init():420] starting backend
+2021-08-10 23:34:08,791 INFO    MainThread:8489 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-08-10 23:34:08,794 INFO    MainThread:8489 [backend.py:ensure_launched():135] starting backend process...
+2021-08-10 23:34:08,813 INFO    MainThread:8489 [backend.py:ensure_launched():140] started backend process with pid: 2842
+2021-08-10 23:34:08,814 INFO    MainThread:8489 [wandb_init.py:init():425] backend started and connected
+2021-08-10 23:34:08,857 INFO    MainThread:8489 [wandb_run.py:_label_probe_notebook():846] probe notebook
+2021-08-10 23:34:08,857 INFO    MainThread:8489 [wandb_run.py:_label_probe_notebook():853] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-08-10 23:34:08,857 INFO    MainThread:8489 [wandb_init.py:init():473] updated telemetry
+2021-08-10 23:34:08,859 INFO    MainThread:8489 [wandb_init.py:init():492] communicating current version
+2021-08-10 23:34:09,584 INFO    MainThread:8489 [wandb_init.py:init():497] got version response upgrade_message: "wandb version 0.12.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-08-10 23:34:09,585 INFO    MainThread:8489 [wandb_init.py:init():505] communicating run to backend with 30 second timeout
+2021-08-10 23:34:09,710 INFO    MainThread:8489 [wandb_init.py:init():530] starting run threads in backend
+2021-08-10 23:34:14,724 INFO    MainThread:8489 [wandb_run.py:_console_start():1625] atexit reg
+2021-08-10 23:34:14,725 INFO    MainThread:8489 [wandb_run.py:_redirect():1499] redirect: SettingsConsole.WRAP
+2021-08-10 23:34:14,725 INFO    MainThread:8489 [wandb_run.py:_redirect():1536] Wrapping output streams.
+2021-08-10 23:34:14,728 INFO    MainThread:8489 [wandb_run.py:_redirect():1560] Redirects installed.
+2021-08-10 23:34:14,728 INFO    MainThread:8489 [wandb_init.py:init():555] run started, returning control to user process
+2021-08-10 23:34:14,740 INFO    MainThread:8489 [wandb_run.py:finish():1295] finishing run parsellsx/tess/1wylabyu

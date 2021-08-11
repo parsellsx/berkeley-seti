@@ -1,0 +1,24 @@
+{
+    "os": "Linux-4.19.0-16-cloud-amd64-x86_64-with-debian-10.10",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-08-10T20:25:21.714132",
+    "startedAt": "2021-08-10T20:25:20.739435",
+    "docker": null,
+    "cpu_count": 2,
+    "cuda": "11.0.207",
+    "args": [
+        "-f",
+        "/home/parsellsx/.local/share/jupyter/runtime/kernel-13e574e2-9727-4463-848d-26117887609b.json"
+    ],
+    "state": "running",
+    "program": "berkeley-seti/Fine-Tuning Hyperparameters on Sector 14 EB Data.ipynb",
+    "root": "/home/parsellsx/berkeley-seti",
+    "git": {
+        "remote": "https://github.com/parsellsx/berkeley-seti",
+        "commit": "d1f4b82a9544c62abc10fc5c1f4836c46644dbc6"
+    },
+    "email": "parsellsx@gmail.com",
+    "host": "aparsells-sweep",
+    "username": "parsellsx",
+    "executable": "/opt/conda/bin/python"
+}
