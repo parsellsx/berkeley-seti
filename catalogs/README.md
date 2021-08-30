@@ -1,0 +1,3 @@
+## catalogs
+
+This folder contains all EB catalogs...
